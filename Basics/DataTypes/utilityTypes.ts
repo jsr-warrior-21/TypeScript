@@ -43,7 +43,7 @@ var studentDetails5:Omit<collegeType,'semester'>={
     college:"IIT DELHI",
 }
 
-//Exclude
+//Exclude`
 
 type Apistatus = "pending" | "resolve" | "loading" | "error"
 
