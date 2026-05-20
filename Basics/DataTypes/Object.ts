@@ -9,7 +9,7 @@ console.log(userdata);
 
 // if you didn't know the key value
 
-var userdata: { [key: string]: string | boolean | number | undefined } = {
+var userdata1: { [key: string]: string | boolean | number | undefined } = {
   name: "AM",
   age: 21,
   LifeLine: true,
