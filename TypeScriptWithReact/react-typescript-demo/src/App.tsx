@@ -1,4 +1,7 @@
  import './App.css'
+import Private from './components/Auth/Private.tsx';
+import Profile from './components/Auth/Profile.tsx';
+// import Counter from './components/class/counter.tsx';
 // import Greet from './components/Greet'
 // import { Person } from './components/Person'
 // import PersonList from './components/PersonList';
@@ -57,7 +60,11 @@ function App() {
           <User/>
        </UserContextProvider> */}
 
-          <MutableRef/>
+          {/* <MutableRef/> */}
+
+          {/* <Counter message="The Count value is"/> */}
+
+          <Private isLoggedIn={true} Component={Profile}/>
 
 
     </div>
